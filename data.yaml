@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['smoke', 'zfire']
+
+roboflow:
+  workspace: moho-rahimi-xyr0w
+  project: wildfire-ryisc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/moho-rahimi-xyr0w/wildfire-ryisc/dataset/2
